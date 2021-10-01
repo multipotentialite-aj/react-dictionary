@@ -12,7 +12,7 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer className="App-footer"><small>Coded by Annie</small></footer>
+      <footer className="App-footer"><small>Coded by Annie on <a href="https://github.com/multipotentialite-aj/react-dictionary">GitHub</a></small></footer>
       </div>
     </div>
   );

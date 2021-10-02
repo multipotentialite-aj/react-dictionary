@@ -8,8 +8,7 @@ export default function Phonetic(props) {
             <a href={props.phonetic.audio} target="_blank">
             <i class="fa-solid fa-circle-play">Listen</i>
             </a>
-            <br />
-            {props.phonetic.text}
+            <span className="text">{props.phonetic.text}</span>
             </div>
     );
 }

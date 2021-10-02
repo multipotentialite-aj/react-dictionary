@@ -12,13 +12,15 @@
 }
 .App {
   color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
 }
 body {
   background: #151983;
-  color: white;
-  border: 1px solid #fff;
   margin: 20px;
-  border-radius: 20px;
   font-family: 'Work Sans', sans-serif;
 }
 a {

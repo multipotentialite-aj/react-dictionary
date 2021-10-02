@@ -15,8 +15,7 @@ body {
     padding: 6px 4px;
     color: #333;
 }
-.Dictionary .hint {
-    font-size: 10px;
-    color: black;
+.Dictionary .Hint {
+    font-size: 14px;
     margin-top: 5px;
 }

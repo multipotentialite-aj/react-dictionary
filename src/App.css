@@ -14,7 +14,7 @@
   color: white;
   max-width: 960px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
   border: 1px solid #ddd;
   border-radius: 20px;
 }
@@ -30,4 +30,8 @@ a {
 h1 {
   font-family: 'Radley', serif;
   font-style: italic;
+}
+i {
+  font-size: 16px;
+  opacity: 0.8;
 }

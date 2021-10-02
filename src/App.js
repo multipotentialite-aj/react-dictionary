@@ -1,4 +1,3 @@
-import logo from './logo.png';
 import './App.css';
 import Dictionary from "./Dictionary";
 
@@ -14,8 +13,8 @@ function App() {
         <Dictionary defaultKeyword="synesthesia" />
       </main>
       <footer className="App-footer"><small>Coded by Annie Jong •
-      <a href  target="_blank" className="m-1"><i class="fas fa-at"></i></a> 
-      <a href  target="_blank" className="m-1"><i class="fab fa-linkedin"></i></a> 
+      <a href="mailto:annie@bluesy-owl.design" target="_blank" className="m-1"><i class="fas fa-at"></i></a> 
+      <a href="https://www.linkedin.com/in/aj1016/" target="_blank" className="m-1"><i class="fab fa-linkedin"></i></a> 
       <a href="https://github.com/multipotentialite-aj/react-dictionary" target="_blank" className="m-1"><i class="fab fa-github-square"></i></a></small></footer>
       </div>
     </div>

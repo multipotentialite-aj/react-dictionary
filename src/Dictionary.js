@@ -36,9 +36,7 @@ export default function Dictionary() {
                 Suggested words: Synesthesia, lugubrious, bleak...
             </div>
             </section>
-            <section>
         <Results results={results} />
-        </section>
     </div>
     )
 }

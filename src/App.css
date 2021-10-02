@@ -1,10 +1,5 @@
 .App-header {
-  margin: 30px 0;
-}
-
-.App-logo {
-  max-width: 250px;
-  display: block;
+  margin: 10px 0;
 }
 .App-footer {
   text-align: left;
@@ -15,7 +10,6 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  border: 1px solid #ddd;
   border-radius: 20px;
 }
 body {
@@ -29,7 +23,8 @@ a {
 }
 h1 {
   font-family: 'Radley', serif;
-  font-style: italic;
+  font-style: bold italic;
+  font-size: 40px;
 }
 i {
   font-size: 16px;

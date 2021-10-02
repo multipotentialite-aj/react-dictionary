@@ -9,7 +9,7 @@ function App() {
         <h1 className="Header">Compendium of Lexicons</h1>
       </header>
       <main>
-      <h4>What word would you like to look up?</h4>
+      <h4>What word do you want to look up?</h4>
         <Dictionary defaultKeyword="synesthesia" />
       </main>
       <footer className="App-footer"><small>Coded by Annie Jong •

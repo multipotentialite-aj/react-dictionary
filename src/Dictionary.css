@@ -1,13 +1,12 @@
 body {
     text-align: left;
     background: #151983;
-    color: black;
 }
 .Dictionary section {
-    padding: 30px 0 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    margin: 20ox 0;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255, 0.5);
 }
 .Dictionary input {
     width: 300px;

@@ -27,13 +27,13 @@ export default function Dictionary() {
     <div className="Dictionary">
         <section>
         <form onSubmit={search}>
-            <input type="search"
+            <input type="search" placeholder="Synaesthesia"
             onChange={handleKeywordChange} />
             <span className="btn btn-light ms-3"
             onClick={handleKeywordChange}>Search</span>
             </form>
             <div className="Hint">
-                Suggested words: Synesthesia, lugubrious, bleak...
+                Suggested words: bibliomane, lugubrious, bleak...
             </div>
             </section>
         <Results results={results} />

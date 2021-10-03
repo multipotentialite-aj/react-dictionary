@@ -12,7 +12,7 @@ function App() {
       <h4>What word do you want to look up?</h4>
         <Dictionary defaultKeyword="synesthesia" />
       </main>
-      <footer className="App-footer"><small>Coded by Annie Jong •
+      <footer className="App-footer"><small>Coded by <a href="https://bluesy-owl.design" target="_blank" rel="noreferrer">Annie Jong</a> •
       <a href="mailto:annie@bluesy-owl.design" target="_blank" className="m-1" rel="noreferrer"><i class="fas fa-at"></i></a> 
       <a href="https://www.linkedin.com/in/aj1016/" target="_blank" className="m-1" rel="noreferrer"><i class="fab fa-linkedin"></i></a> 
       <a href="https://github.com/multipotentialite-aj/react-dictionary" target="_blank" className="m-1" rel="noreferrer"><i class="fab fa-github-square"></i></a></small></footer>

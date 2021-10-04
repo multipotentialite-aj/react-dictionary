@@ -48,7 +48,7 @@ export default function Dictionary() {
             onClick={handleKeywordChange}>Search</span>
             </form>
             <div className="Hint">
-                Suggested words: compendium, savant, lugubrious, bleak...
+                Suggested words: compendium, void, lugubrious, bleak...
             </div>
             </section>
         <Results results={results} />

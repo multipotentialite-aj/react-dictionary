@@ -29,10 +29,7 @@ export default function Dictionary() {
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
-    function handleSubmit(event) {
-        event.preventDefault();
-        search();
-  }
+    
 
     function handleKeywordChange(event) {
         setKeyword(event.target.value);
@@ -48,7 +45,7 @@ export default function Dictionary() {
             onClick={handleKeywordChange}>Search</span>
             </form>
             <div className="Hint">
-                Suggested words: compendium, void, lugubrious, bleak...
+                Suggested words: exasperation, void, lugubrious, bleak...
             </div>
             </section>
         <Results results={results} />

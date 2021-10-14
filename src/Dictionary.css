@@ -9,7 +9,7 @@ body {
     border: 1px solid rgba(255,255,255, 0.5);
 }
 .Dictionary input {
-    width: 300px;
+    width: 100%;
     border-radius: 6px;
     padding: 6px 4px;
     color: #333;
@@ -17,4 +17,7 @@ body {
 .Dictionary .Hint {
     font-size: 14px;
     margin-top: 5px;
+}
+.Dictionary .btn {
+    margin: 10px;
 }

@@ -41,9 +41,11 @@ export default function Dictionary() {
         <form onSubmit={search}>
             <input type="search" placeholder="Synaesthesia"
             onChange={handleKeywordChange} />
+            <span className="btn btn-light ms-3"
+            onClick={handleKeywordChange}>Search</span>
             </form>
             <div className="Hint">
-                Suggested words: exasperation, void, lugubrious, bleak...
+                Suggested words: desolate, void, lugubrious, bleak...
             </div>
             </section>
         <Results results={results} />

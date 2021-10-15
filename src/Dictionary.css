@@ -20,14 +20,12 @@ body {
 }
 .Dictionary button {
     margin: 0 10px 8px;
-    padding: 7px;
     background: transparent;
     color: white;
     border: 1px solid rgba(255, 255, 255, .7);
     text-decoration: none;
     font-size: 12px;
-    margin-right: 10px;
-    padding: 10px 20px;
+    padding: 8px 18px;
     border-radius: 20px;
     transition: all 100ms ease-in-out;
 }

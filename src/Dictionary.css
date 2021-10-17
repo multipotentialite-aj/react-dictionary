@@ -9,10 +9,19 @@ body {
     border: 1px solid rgba(255,255,255, 0.5);
 }
 .Dictionary input {
-    width: 300px 100%;
+    width: 300px;
     border-radius: 6px;
     padding: 6px 4px;
     color: #333;
+    box-sizing: none;
+}
+.Dictionary form {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.Dictionary .search-field {
+    width: 60%;
+    display: inline-flex;
 }
 .Dictionary .Hint {
     font-size: 14px;

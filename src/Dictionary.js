@@ -40,7 +40,8 @@ export default function Dictionary() {
         <section>
         <form onSubmit={search}>
             <input type="search" placeholder="Synaesthesia"
-            onChange={handleKeywordChange} />
+            onChange={handleKeywordChange}
+            className="search-field" />
             <button type="search" className="button"><i class="fas fa-search"></i></button>
             </form>
             <div className="Hint">
